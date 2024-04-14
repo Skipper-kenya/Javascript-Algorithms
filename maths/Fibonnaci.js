@@ -9,7 +9,7 @@ const fibonacci = (n) => {
   const fib = [0, 1];
 
   //we start our loop from 2 (we already have 0 and 1)
-  for (let i = 2; i < n; i++) {
+  for (let i = 2; i <= n; i++) {
     fib[i] = fib[i - 1] + fib[i - 2];
   }
   return fib;
